@@ -1,0 +1,26 @@
+.title-wrapper {
+  margin-left: 100px;
+}
+.title {
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 20px;
+}
+.title-description {
+  width: 630px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+}
+.title-button {
+  width: 300px;
+  height: 60px;
+  border: 2px solid hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 12px;
+  color: hsl(0, 0%, 100%);
+  background: transparent;
+}

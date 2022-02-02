@@ -1,5 +1,15 @@
-function App() {
-  return <div className='App'>11</div>;
-}
+import React from 'react';
 
-export default App;
+import Header from './Components/Header/Header';
+import Title from './Components/Title/Title';
+
+export default function App() {
+  return (
+    <>
+      <div className='main'>
+        <Header />
+        <Title />
+      </div>
+    </>
+  );
+}

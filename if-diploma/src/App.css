@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 1);
+}
+
+html {
+  background: rgb(238, 232, 224);
+}
+
+.main {
+  margin: 0px auto;
+  padding: 0px 60px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: url(./img/main-bgnd.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
